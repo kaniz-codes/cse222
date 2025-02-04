@@ -7,8 +7,5 @@
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
         "**/*.exe": true,
-    },
-    "files.associations": {
-        "stdio.h": "c"
     }
 }
