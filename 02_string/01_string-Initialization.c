@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
+int main()
+{ 
     char name[] = "Kaniz";
     char name1[10] = "Kaniz";
     printf("%s\n", name);
