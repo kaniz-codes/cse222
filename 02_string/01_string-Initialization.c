@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
+int main()
+{ 
     char name[] = "Kaniz";
     char name1[10] = "Kaniz";
     printf("%s\n", name);
     printf("%s\n", name1);
 
-    // Character Array with Individual Characters
+    // Character Array with Individual Characters   
     char name2[] = {'K', 'A', 'N', 'I', 'Z', '\0'};
     char name3[10] = {'K', 'A', 'N', 'I', 'Z', '\0'};
     printf("%s\n", name2);
