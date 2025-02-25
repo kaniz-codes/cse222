@@ -46,4 +46,8 @@ int main()
     cout<<"\nSorted: ";
     display(array, n);
     return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ad7504965a49f34b5bfdbd3d36a6175f7714c29e
