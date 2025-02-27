@@ -1,53 +1,32 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 
-void bubblesort(int array[], int n)
+void bubble_sort(int array[], int n)
 {
-    for(int pass=0; pass < n - 1; pass++)
+    for(int i=0; i<n-1; i++)
     {
-        for(int i = 0; i< n-pass-1; i++)
+        for(int j=0; j<n-1-i; j++)  
         {
-            if(array[i]> array[i+1])
-        {
-            int temp = array[i];
-            array[i] = array[i + 1];
-            array[i + 1] = temp;
-        }
-
-        }
-        
-    }
-}
-void display(int array[], int n)
-{
-    for(int i=0; i<n; i++)
-    {
-        cout << array[i];
-        if(i != n -1 )
-        {
-           cout<< " , ";
+            if(array[j] > array[j+1])
+            {
+                int temp = array[j];
+                array[j] = array[j+1];
+                array[j+1] = temp;
+            }
         }
     }
 }
 
 int main()
 {
-    int array[5];
+    int array[5] = {1, 5, 56, 6, 9};
     int n = sizeof(array)/sizeof(array[0]);
-    for(int i=0;i<n; i++)
+    
+    bubble_sort(array, n);
+    
+    for(int i = 0; i < n; i++) 
     {
-        cin>> array[i];
+        cout << array[i] << " ";
     }
-
-    cout<< "Array: ";
-    display(array, n);
-    bubblesort(array,n);
-
-    cout<<"\nSorted: ";
-    display(array, n);
     return 0;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> ad7504965a49f34b5bfdbd3d36a6175f7714c29e
