@@ -25,5 +25,6 @@ int main()
     {
         cout << array[i] << " ";
     }
+    cout << "Name: Kaniz Fatema" << endl << "ID: 20245103154" << endl;
     return 0;
 }

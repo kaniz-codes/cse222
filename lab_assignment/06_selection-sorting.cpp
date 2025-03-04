@@ -1,33 +1,34 @@
-#include<iostream>
-//#include<bits/stdc++.h>
+#include <iostream>
 using namespace std;
-
-void selectionsort(int array[], int n)
+void selection_sort(int array[], int n)
 {
-    for(int i=0; i<n-1; i++)
+    for (int i = 0; i < n - 1; i++)
     {
-        int temp=i;
-
-        for(int j= i+1; j<n;j++)
+        int min_index = i;
+        for (int j = i + 1; j < n; j++)
         {
-            if(array[temp]>array[j])
+            if (array[j] < array[min_index])
             {
-                temp = j;
+                min_index = j;
             }
         }
-        swap(array[temp], array[i]);
+        int temp = array[min_index];
+        array[min_index] = array[i];
+        array[i] = temp;
     }
 }
 int main()
 {
-    int array[5]={1,5, 56, 6, 9};
-    int n= sizeof(array)/sizeof(array[0]);
-    selectionsort(array, n);
-
-    for(int i= 0; i<5; i++)
+    int array[5] = {1, 5, 56, 6, 9};
+    int n = sizeof(array) / sizeof(array[0]);
+    selection_sort(array, n);
+    cout << "Sorted array: ";
+    for (int i = 0; i < n; i++)
     {
-        cout<< array[i]<<" ";
+        cout << array[i] << " ";
     }
+    cout << endl;
     cout << "Name: Kaniz Fatema" << endl << "ID: 20245103154" << endl;
-}
 
+    return 0;
+}
