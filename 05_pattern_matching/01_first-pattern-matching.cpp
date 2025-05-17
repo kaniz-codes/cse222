@@ -17,7 +17,7 @@ int main()
             if (str[i + j] != pattern[j])
                 break;
 
-        if (j == l_pattern)
+        if (j == l_pattern) 
         {
             found = i;
             break;
