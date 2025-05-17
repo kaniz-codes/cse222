@@ -17,7 +17,7 @@ int main()
                 arr[j] = arr[j + 1];
             }
             i--; 
-        }
+        } 
     }
 
     printf("Final array: ");
