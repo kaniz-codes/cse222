@@ -1,19 +1,22 @@
 #include <iostream>
 using namespace std;
 
-struct Node {
+struct Node 
+{
     int data;
     Node* left;
     Node* right;
 
-    Node(int val) {
+    Node(int val) 
+    {
         data = val;
         left = right = nullptr;
     }
 };
 
-// Function to create the binary tree using user input
-Node* createTree() {
+// user input
+Node* createTree() 
+{
     int val;
     cout << "Enter value (-1 for NULL): ";
     cin >> val;
@@ -32,31 +35,35 @@ Node* createTree() {
     return newNode;
 }
 
-// Preorder (Prefix) Traversal
-void preorder(Node* root) {
+// Preorder Traversal
+void preorder(Node* root) 
+{
     if (root == nullptr) return;
     cout << root->data << " ";
     preorder(root->left);
     preorder(root->right);
 }
 
-// Inorder (Infix) Traversal
-void inorder(Node* root) {
+// Inorder Traversal
+void inorder(Node* root) 
+{
     if (root == nullptr) return;
     inorder(root->left);
     cout << root->data << " ";
     inorder(root->right);
 }
 
-// Postorder (Postfix) Traversal
-void postorder(Node* root) {
+// Postorder Traversal
+void postorder(Node* root) 
+{
     if (root == nullptr) return;
     postorder(root->left);
     postorder(root->right);
     cout << root->data << " ";
 }
 
-int main() {
+int main() 
+{
     cout << "Binary Tree:" << endl;
     Node* root = createTree();
 
