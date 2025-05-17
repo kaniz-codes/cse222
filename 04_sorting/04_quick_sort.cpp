@@ -5,7 +5,7 @@ int partition(int array[], int l, int h)
 {
     int pivot= array[l];
     int i=l;
-    int j=h;
+    int j=h; 
 
     while(i<j)
     {
