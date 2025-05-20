@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// Node
 struct Node 
 {
     int data;
@@ -41,7 +40,8 @@ void inorder(Node* root)
     inorder(root->right);
 }
 
-int main() {
+int main() 
+{
     Node* root = nullptr;
     int n, val;
 
