@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 int Front= 0, Rear= 3, N= 5;
 int Queue[]= {1, 2, 3, 6};
 
@@ -78,7 +77,7 @@ int main()
     cout<<endl;
     cout<< "Peek: " <<endl;
     Peek();
+    cout<<endl<< "Kaniz Fatema" << endl << "20245103154"<<endl;
     return 0;
-
 }
 

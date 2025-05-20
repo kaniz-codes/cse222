@@ -1,12 +1,10 @@
 #include <stdio.h>
 #define MAXSIZE 8
-
 int stack[MAXSIZE];
 int top = -1;
-
 void push()
 {
-    if (top == MAXSIZE - 1)
+    if (top == MAXSIZE-1)
     {
         printf("Overflow\n");
     }
@@ -19,7 +17,6 @@ void push()
         stack[top] = x;
     }
 }
-
 void pop()
 {
     if (top == -1)
@@ -32,7 +29,6 @@ void pop()
         top--;
     }
 }
-
 void peek()
 {
     if (top == -1)
@@ -41,10 +37,9 @@ void peek()
     }
     else
     {
-        printf("Top element is %d\n", stack[top]);
+        printf("Peek: %d\n", stack[top]);
     }
 }
-
 void display()
 {
     if (top == -1)
@@ -60,18 +55,14 @@ void display()
         }
     }
 }
-
 int main()
 {
-
     push();
     push();
     display();
     peek();
     pop();
     display();
-
-
-
+    printf("Kaniz Fatema\n20245103154\n");
     return 0;
 }
