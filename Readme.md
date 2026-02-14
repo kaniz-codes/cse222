@@ -1,63 +1,66 @@
-# Data Structures and Algorithms
+# CSE 222 — Data Structures & Algorithms (Theory + Lab)
 
-This repo contains my C and C++ programs implementing core data structures and algorithms. 
-Experimenting to understand and apply fundamental concepts of computer science.
+C and C++ programs implementing core data structures and algorithms. 
 
-- Coded By: **Kaniz Fatema**
-- Instructor: **Nasrin Akter**
+```
+Language: C, C++  
+Semester: 3rd
+Instructor: Nasrin Akter
+```
 
 ## 📌 Topics Covered
 
-### 1. Arrays
-Basic operations using one-dimensional and two-dimensional arrays.
-- Shifting operations
-- Replace, delete, insert
-- 2D array addition & multiplication
+- [01 Arrays](./01_array)  
+  - Shifting operations  
+  - Replace / delete / insert  
+  - 2D array addition & multiplication  
 
-### 2. Strings
-- String initialization
-- standard string function usage
+- [02 Strings](./02_string)  
+  - String initialization  
+  - Standard string function usage  
 
-### 3. Searching Algorithms
+- [03 Searching](./03_search-algorithm)  
+  - Linear Search  
+  - Binary Search  
 
-- Linear Search
-- Binary Search 
+- [04 Sorting](./04_sorting)  
+  - Bubble Sort  
+  - Insertion Sort  
+  - Selection Sort  
+  - Quick Sort  
 
-### 4. Sorting Algorithms
-- Bubble Sort
-- Insertion Sort
-- Selection Sort
-- Quick Sort
+- [05 Pattern Matching](./05_pattern_matching)  
+  - Basic pattern matching using strings  
 
-### 5. Pattern Matching
-- Basic pattern matching algorithm using strings
+- [06 Linked List](./06_linked-list)  
+  - Insert (beginning, middle, end)  
+  - Delete (beginning, middle, end)  
+  - Display  
 
-### 6. Linked List
-Singly linked list with operations:
-- Insert (beginning, middle, end)
-- Delete (beginning, middle, end)
-- Display
+- [07 Stack](./07_stack) *(Using Arrays)*  
+  - Push  
+  - Pop  
+  - Peek  
+  - Display  
 
-### 7. Stack (Using Arrays)
-- Push
-- Pop
-- Peek
-- Display
+- [08 Queue](./08_queue) *(Using Arrays)*  
+  - Enqueue  
+  - Dequeue  
+  - Peek  
+  - Display  
 
-### 8. Queue (Using Arrays)
-- Enqueue
-- Dequeue
-- Peek
-- Display
+- [09 Binary Tree](./09_binary-tree)  
+  - Recursive insertion  
+  - Traversals: In-order, Pre-order, Post-order  
+  - Count total & leaf nodes  
 
-### 9. Binary Tree
-- Insertion (recursive)
-- Traversals (In-order, Pre-order, Post-order)
-- Count total and leaf nodes
+- [10 Binary Search Tree](./10_binary-search-tree)  
+  - In-order traversal  
 
-### 10. Binary Search Tree (BST)
-- In-order Traversal
+- [11 Recursion](./11_recursive-functions)
+
+- [Mid Assignment](./mid_assignment)
+
+- [Final Lab Report](./final-lab-report)
 
 ---
-
-
